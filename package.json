@@ -1,0 +1,26 @@
+{
+  "name": "querystrangs",
+  "version": "0.1.0",
+  "description": "Query string parsing with southern hospitality.",
+  "repository": "git://github.com/joeosburn/querystrangs.git",
+  "main": "./index",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "dependencies": {
+    "decode-uri-component": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "chai": "4.2.0"
+  },
+  "author": "Joe Osburn <joe@jnodev.com>",
+  "contributors": [
+    "Shane Thacker <shane@steadymade.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "query string",
+    "parser"
+  ]
+}
